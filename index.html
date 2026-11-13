@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidad Administrativa y de Gestión | Proyecto Final UMG</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-badge">UMG</span>
+                <span>Contabilidad II | Gestión</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#diseno-web">Fundamentos Web</a></li>
+                    <li><a href="#teoria">Teoría Contable</a></li>
+                    <li><a href="#herramientas">Herramientas Prácticas</a></li>
+                    <li><a href="#control">Control Administrativo</a></li>
+                    <li><a href="#simuladores">Simuladores</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-tag">Proyecto Final Individual • Universidad Mariano Gálvez</span>
+            <h1>Contabilidad Administrativa y Herramientas de Gestión Estratégica</h1>
+            <p>Plataforma digital interactiva diseñada para la planeación financiera, el análisis patrimonial, el control por áreas de responsabilidad y la toma de decisiones gerenciales basadas en datos.</p>
+            <div class="btn-group">
+                <a href="#herramientas" class="btn btn-primary">Explorar Herramientas</a>
+                <a href="#simuladores" class="btn btn-secondary">Probar Calculadoras Financieras</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+
+        <!-- SECCIÓN 1: FUNDAMENTOS DE CREACIÓN WEB -->
+        <section id="diseno-web">
+            <div class="section-header">
+                <h2>1. Fundamentos de Creación y Arquitectura Web</h2>
+                <p>Criterios técnicos, de usabilidad y estética institucional aplicados al desarrollo de este recurso digital.</p>
+            </div>
+
+            <div class="grid-3">
+                <div class="card">
+                    <h3>🎨 Identidad Visual y Modo Oscuro</h3>
+                    <p>Se integró la paleta institucional de la <strong>Universidad Mariano Gálvez (Azul Marino #003366, Rojo Carmesí #C8102E y Dorado #D4AF37)</strong> sobre una interfaz oscura de alto contraste.</p>
+                    <p>Este diseño ergonométrico reduce la emisión de luz azul y previene la fatiga ocular durante jornadas prolongadas de estudio y análisis nocturno.</p>
+                </div>
+                <div class="card">
+                    <h3>🧭 Arquitectura y Navegación</h3>
+                    <p>La estructura sigue una jerarquía lógica dividida en cuatro módulos progresivos: diseño, teoría, herramientas analíticas y simuladores prácticos.</p>
+                    <p>El menú superior fijo (<em>sticky header</em>) y las pestañas interactivas permiten localizar fórmulas, tablas comparativas y casos sin pérdida de contexto.</p>
+                </div>
+                <div class="card">
+                    <h3>📱 Adaptabilidad (Responsive Design)</h3>
+                    <p>Desarrollada mediante <strong>CSS Grid y Flexbox</strong>, la página ajusta automáticamente sus columnas, tipografías (<em>Inter</em> y <em>Playfair Display</em>) y tablas a pantallas de escritorio, tabletas y teléfonos móviles.</p>
+                    <p>Incluye calculadoras nativas en JavaScript que operan sin necesidad de servidores externos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: CONTABILIDAD ADMINISTRATIVA (ASPECTOS TEÓRICOS) -->
+        <section id="teoria">
+            <div class="section-header">
+                <h2>2. Contabilidad Administrativa: Fundamentos Teóricos</h2>
+                <p>Marco conceptual, objetivos estratégicos y diferenciación frente a otras ramas de la contabilidad.</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h3>🎯 Concepto y Objetivos Principales</h3>
+                    <p>La <strong>Contabilidad Administrativa</strong> (o de Gestión) es un sistema de información al servicio exclusivo de las necesidades de la administración interna. Su enfoque es pragmático, analítico y orientado hacia el futuro.</p>
+                    <ul>
+                        <li><strong>Planear:</strong> Formular presupuestos y proyecciones financieras a corto y largo plazo.</li>
+                        <li><strong>Controlar:</strong> Comparar el desempeño real contra los estándares establecidos para corregir desviaciones.</li>
+                        <li><strong>Tomar Decisiones:</strong> Evaluar alternativas operativas (precios, inversiones, subcontratación) reduciendo la incertidumbre.</li>
+                        <li><strong>Motivar:</strong> Evaluar la gestión de cada departamento mediante centros de responsabilidad.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>💡 Importancia en la Toma de Decisiones</h3>
+                    <p>En entornos empresariales altamente competitivos, los registros históricos son insuficientes para anticipar cambios del mercado. La contabilidad administrativa transforma datos contables en inteligencia de negocio.</p>
+                    <p>Permite identificar qué líneas de productos son verdaderamente rentables, determinar el punto de equilibrio operativo, gestionar la liquidez mediante el fondo de maniobra y evaluar si un proyecto de inversión generará valor económico real.</p>
+                </div>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Criterio Comparativo</th>
+                            <th>Contabilidad Administrativa</th>
+                            <th>Contabilidad Financiera</th>
+                            <th>Contabilidad de Costos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Usuarios Principales</strong></td>
+                            <td>Internos (Gerentes, directores, jefes de área).</td>
+                            <td>Externos (Accionistas, bancos, SAT, proveedores).</td>
+                            <td>Internos y externos (Producción y valuación).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Enfoque Temporal</strong></td>
+                            <td>Orientada hacia el futuro (presupuestos y proyecciones).</td>
+                            <td>Histórica (registra hechos ya ocurridos).</td>
+                            <td>Histórica y predeterminada (costos estándar).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Normativa Reguladora</strong></td>
+                            <td>Flexible; se adapta a las necesidades de la gerencia.</td>
+                            <td>Obligatoria y estricta (NIIF / PCGA).</td>
+                            <td>Mixta (criterios internos y normas de inventario).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Nivel de Detalle</strong></td>
+                            <td>Segmentada por áreas, productos, sucursales o procesos.</td>
+                            <td>Global (presenta la empresa como un todo).</td>
+                            <td>Detallada por orden de producción o departamento.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: HERRAMIENTAS DE GESTIÓN PRÁCTICA -->
+        <section id="herramientas">
+            <div class="section-header">
+                <h2>3. Herramientas Prácticas de Contabilidad de Gestión</h2>
+                <p>Instrumentos analíticos para el diagnóstico patrimonial, financiero, económico y de inversión.</p>
+            </div>
+
+            <div class="tabs">
+                <button class="tab-btn active" onclick="openTab(event, 'tab-patrimonial')">Análisis Patrimonial y Ratios</button>
+                <button class="tab-btn" onclick="openTab(event, 'tab-rentabilidad')">Rentabilidad y Apalancamiento</button>
+                <button class="tab-btn" onclick="openTab(event, 'tab-decisiones')">Comprar o Producir y Flujo</button>
+                <button class="tab-btn" onclick="openTab(event, 'tab-proyectos')">Evaluación VAN y TIR</button>
+            </div>
+
+            <!-- TAB 1: ANÁLISIS PATRIMONIAL -->
+            <div id="tab-patrimonial" class="tab-content active">
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>📊 Análisis Vertical, Horizontal y Fondo de Maniobra</h3>
+                        <p>El <strong>Análisis Patrimonial</strong> evalúa la estructura del Balance General mediante porcentajes verticales (peso de cada partida sobre el total) y variaciones horizontales (evolución entre periodos).</p>
+                        <p>El <strong>Fondo de Maniobra (FM)</strong> representa el colchón de seguridad financiera para operar sin tensiones de liquidez a corto plazo:</p>
+                        <div class="formula-box">
+                            FM = Activo Corriente - Pasivo Corriente<br>
+                            FM = Capitales Permanentes - Activo No Corriente
+                        </div>
+                        <p><em>Principio de prudencia financiera:</em> El Activo No Corriente debe financiarse con Capitales Permanentes (Patrimonio Neto + Pasivo No Corriente) y dejar un margen positivo para el ciclo operativo.</p>
+                    </div>
+                    <div class="card">
+                        <h3>⚖️ Ratios Financieros Clave</h3>
+                        <ul>
+                            <li><strong>Liquidez General:</strong> Activo Corriente / Pasivo Corriente (Óptimo: 1.5 - 2.0).</li>
+                            <li><strong>Tesorería (Prueba Ácida):</strong> (Realizable + Disponible) / Pasivo Corriente (Óptimo: ~1.0).</li>
+                            <li><strong>Disponibilidad Inmediata:</strong> Efectivo / Pasivo Corriente (Óptimo: 0.2 - 0.3).</li>
+                            <li><strong>Garantía o Solvencia:</strong> Activo Total / Pasivo Total (Óptimo: > 1.5; si es < 1 existe quiebra técnica).</li>
+                            <li><strong>Endeudamiento Total:</strong> Pasivo Total / (Patrimonio Neto + Pasivo Total) (Óptimo: 0.4 - 0.6).</li>
+                            <li><strong>Calidad de la Deuda:</strong> Pasivo Corriente / Pasivo Total (Mientras menor sea, mayor plazo tiene la empresa).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: RENTABILIDAD Y APALANCAMIENTO -->
+            <div id="tab-rentabilidad" class="tab-content">
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>📈 Rentabilidad Económica (RE) vs. Financiera (RF)</h3>
+                        <p>Es vital distinguir entre el <strong>beneficio</strong> (cifra absoluta en quetzales) y la <strong>rentabilidad</strong> (relación porcentual entre el beneficio y el capital invertido).</p>
+                        <div class="formula-box">
+                            RE (ROA) = (BAII / Activo Total) × 100<br>
+                            RF (ROE) = (Beneficio Neto / Patrimonio Neto) × 100
+                        </div>
+                        <p>La <strong>RE</strong> mide la eficiencia operativa de los activos sin importar cómo se financiaron. La <strong>RF</strong> mide el rendimiento neto que reciben los socios o accionistas.</p>
+                    </div>
+                    <div class="card">
+                        <h3>🚀 Efecto Apalancamiento Financiero</h3>
+                        <p>Analiza el impacto del uso de deuda sobre la rentabilidad de los accionistas comparando la Rentabilidad Económica (RE) con el Coste de la Financiación Ajena (CFA):</p>
+                        <ul>
+                            <li><strong>Apalancamiento Positivo (RE > CFA):</strong> El rendimiento generado por los activos supera el interés de la deuda; endeudarse aumenta la Rentabilidad Financiera.</li>
+                            <li><strong>Apalancamiento Neutro (RE = CFA):</strong> La deuda no modifica la rentabilidad de los propietarios.</li>
+                            <li><strong>Apalancamiento Negativo (RE < CFA):</strong> El costo financiero es mayor al rendimiento operativo; la deuda destruye valor.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 3: COMPRAR O PRODUCIR Y FLUJO DE EFECTIVO -->
+            <div id="tab-decisiones" class="tab-content">
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>🏭 Decisiones de Comprar o Producir (Make or Buy)</h3>
+                        <p>Consiste en determinar si resulta más rentable fabricar internamente un componente o servicio, o adquirirlo de un proveedor externo.</p>
+                        <ul>
+                            <li><strong>Costos Relevantes:</strong> Materiales directos, mano de obra directa, costos indirectos variables y costos fijos evitables.</li>
+                            <li><strong>Costos Irrelevantes (Hundidos):</strong> Depreciaciones o costos fijos estructurales que persistirán sin importar la decisión.</li>
+                            <li><strong>Costo de Oportunidad:</strong> Beneficio que se deja de percibir si la capacidad instalada liberada pudiera destinarse a otro producto rentable.</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>💵 Estado y Análisis de Flujo de Efectivo</h3>
+                        <p>Evalúa la capacidad real de la empresa para generar liquidez, superando las limitaciones del criterio de devengo contable. Clasifica los movimientos en tres áreas:</p>
+                        <ul>
+                            <li><strong>Actividades de Operación:</strong> Cobros por ventas y pagos a proveedores, empleados e impuestos.</li>
+                            <li><strong>Actividades de Inversión:</strong> Compra y venta de activos fijos (maquinaria, inmuebles, tecnología).</li>
+                            <li><strong>Actividades de Financiación:</strong> Obtención y pago de préstamos bancarios, emisión de acciones y pago de dividendos.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 4: PROYECCIÓN FINANCIERA VAN Y TIR -->
+            <div id="tab-proyectos" class="tab-content">
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>💰 Valor Actual Neto (VAN)</h3>
+                        <p>Actualiza todos los flujos netos de efectivo futuros proyectados al momento presente utilizando una tasa de descuento (costo de capital o TREMA) y resta la inversión inicial:</p>
+                        <div class="formula-box">
+                            <img class="formula-imagen" src="imagenes/formula-van.png" alt="Fórmula del VAN: inversión inicial negativa más la suma de los flujos de efectivo descontados por cada año." loading="lazy">
+                        </div>
+                        <ul>
+                            <li><strong>VAN > 0:</strong> El proyecto genera riqueza por encima de la rentabilidad mínima exigida (Se acepta).</li>
+                            <li><strong>VAN = 0:</strong> El proyecto recupera exactamente la inversión y el costo de capital (Indiferente).</li>
+                            <li><strong>VAN < 0:</strong> El proyecto destruye valor financiero (Se rechaza).</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>📊 Tasa Interna de Retorno (TIR)</h3>
+                        <p>Es la tasa de descuento específica que iguala el Valor Actual Neto a cero, representando la rentabilidad porcentual intrínseca del proyecto.</p>
+                        <div class="formula-box">
+                            <img class="formula-imagen" src="imagenes/formula-tir.png" alt="Fórmula de la TIR: cero igual a la inversión inicial negativa más la suma de los flujos de efectivo descontados a la tasa interna de retorno." loading="lazy">
+                        </div>
+                        <ul>
+                            <li><strong>TIR > Tasa de Corte (k):</strong> El rendimiento del proyecto supera el costo de financiamiento (Se acepta).</li>
+                            <li><strong>TIR < Tasa de Corte (k):</strong> El proyecto rinde menos que el costo del capital (Se rechaza).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 4: CONTROL ADMINISTRATIVO Y ÁREAS DE RESPONSABILIDAD -->
+        <section id="control">
+            <div class="section-header">
+                <h2>4. Sistemas de Control Administrativo y Áreas de Responsabilidad</h2>
+                <p>Alineación estratégica, evaluación del desempeño y asignación de costos departamentales.</p>
+            </div>
+
+            <div class="grid-3">
+                <div class="card">
+                    <h3>🛡️ Objetivos y Tipos de Control</h3>
+                    <p>El control administrativo persigue tres fines: <strong>diagnosticar</strong> desviaciones, <strong>comunicar</strong> metas claras y <strong>motivar</strong> al talento humano.</p>
+                    <ul>
+                        <li><strong>Control Guía (Preventivo):</strong> Se aplica antes de ejecutar la acción (presupuestos y políticas).</li>
+                        <li><strong>Control Selectivo (Concurrente):</strong> Supervisión durante la operación en puntos críticos.</li>
+                        <li><strong>Control Posterior:</strong> Evaluación de resultados finales contra estándares al cierre del periodo.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>🏢 Centros de Responsabilidad</h3>
+                    <p>Divide la empresa en unidades donde cada gerente responde únicamente por sus <strong>partidas controlables</strong>:</p>
+                    <ul>
+                        <li><strong>Costos Estándar:</strong> Mide eficiencia en producción (variaciones en insumos y horas).</li>
+                        <li><strong>Ingresos:</strong> Enfocado en cuotas de ventas y captación de mercado.</li>
+                        <li><strong>Gastos Discrecionales:</strong> Áreas administrativas o de I+D con presupuesto asignado.</li>
+                        <li><strong>Utilidades e Inversión:</strong> Evalúan tanto márgenes operativos como retorno sobre activos (ROI/EVA).</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>🔄 Prorrateos Primarios y Secundarios</h3>
+                    <p>Metodología para asignar los costos indirectos a los productos o servicios finales:</p>
+                    <ul>
+                        <li><strong>Prorrateo Primario:</strong> Distribución de los costos indirectos acumulados entre todos los departamentos (productivos y de servicio) usando bases lógicas (m², kW, número de empleados).</li>
+                        <li><strong>Prorrateo Secundario:</strong> Redistribución de los costos de los departamentos de servicio (mantenimiento, TI, recursos humanos) hacia los departamentos productivos.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 5: SIMULADORES INTERACTIVOS -->
+        <section id="simuladores">
+            <div class="section-header">
+                <h2>5. Simuladores Prácticos de Gestión</h2>
+                <p>Herramientas interactivas para aplicar en tiempo real los modelos financieros del curso.</p>
+            </div>
+
+            <div class="calc-section">
+                <div class="calc-grid">
+                    <!-- Calculadora 1: Fondo de Maniobra y Liquidez -->
+                    <div>
+                        <h3 style="color: var(--umg-gold); margin-bottom: 1rem;">Calculadora de Fondo de Maniobra</h3>
+                        <div class="form-group">
+                            <label>Activo Corriente (Q):</label>
+                            <input type="number" id="ac" placeholder="Ej. 150000" value="150000">
+                        </div>
+                        <div class="form-group">
+                            <label>Pasivo Corriente (Q):</label>
+                            <input type="number" id="pc" placeholder="Ej. 90000" value="90000">
+                        </div>
+                        <button class="btn btn-primary" onclick="calcularFM()" style="width: 100%;">Calcular Equilibrio</button>
+                        <div class="result-box" id="res-fm">
+                            Fondo de Maniobra: Q 60,000.00 | Ratio Liquidez: 1.67 (Equilibrio Saludable)
+                        </div>
+                    </div>
+
+                    <!-- Calculadora 2: Evaluación de Proyecto (VAN) -->
+                    <div>
+                        <h3 style="color: var(--umg-gold); margin-bottom: 1rem;">Simulador de Valor Actual Neto (VAN - 3 Años)</h3>
+                        <div class="form-group">
+                            <label>Inversión Inicial (Q):</label>
+                            <input type="number" id="inv" placeholder="Ej. 100000" value="100000">
+                        </div>
+                        <div class="form-group">
+                            <label>Tasa de Descuento Anual (%):</label>
+                            <input type="number" id="tasa" placeholder="Ej. 12" value="12">
+                        </div>
+                        <div class="form-group">
+                            <label>Flujo Neto Anual Constante (Años 1 a 3) (Q):</label>
+                            <input type="number" id="flujo" placeholder="Ej. 45000" value="45000">
+                        </div>
+                        <button class="btn btn-primary" onclick="calcularVAN()" style="width: 100%;">Evaluar Viabilidad VAN</button>
+                        <div class="result-box" id="res-van">
+                            VAN: Q 8,082.41 | Decisión: Proyecto Viable (Genera Valor)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- NUEVA SECCIÓN AÑADIDA: seis calculadoras adicionales (sin modificar las originales) -->
+        <section id="calculadoras-adicionales" class="extra-calculators">
+            <div class="section-header">
+                <h2>6. Calculadoras Financieras Adicionales</h2>
+                <p>Seis herramientas complementarias para el análisis contable y financiero.</p>
+            </div>
+            <div class="extra-tool-grid">
+                <article class="extra-tool-card">
+                    <h3>Rentabilidad sobre ventas</h3>
+                    <p>Calcula qué proporción de las ventas representa la utilidad.</p>
+                    <form id="profitForm" class="extra-calculator">
+                        <label for="sales">Ventas (Q)</label><input id="sales" type="number" min="0" step="0.01" value="50000" required>
+                        <label for="profit">Utilidad neta (Q)</label><input id="profit" type="number" step="0.01" value="7500" required>
+                        <button class="extra-button" type="submit">Calcular margen</button>
+                    </form>
+                    <div class="extra-result" id="profitResult" aria-live="polite">Margen de utilidad: 15.00%</div>
+                    <p class="extra-formula">Margen = (utilidad neta ÷ ventas) × 100</p>
+                </article>
+                <article class="extra-tool-card">
+                    <h3>Flujo neto de efectivo</h3>
+                    <p>Compara el efectivo recibido con el efectivo pagado durante un período.</p>
+                    <form id="cashForm" class="extra-calculator">
+                        <label for="inflows">Entradas de efectivo (Q)</label><input id="inflows" type="number" min="0" step="0.01" value="28000" required>
+                        <label for="outflows">Salidas de efectivo (Q)</label><input id="outflows" type="number" min="0" step="0.01" value="21500" required>
+                        <button class="extra-button" type="submit">Calcular flujo</button>
+                    </form>
+                    <div class="extra-result" id="cashResult" aria-live="polite">Flujo neto: Q 6,500.00</div>
+                    <p class="extra-formula">Flujo neto = entradas − salidas</p>
+                </article>
+                <article class="extra-tool-card">
+                    <h3>Comprar o producir</h3>
+                    <p>Compara costos relevantes por unidad y por la cantidad indicada.</p>
+                    <form id="makeBuyForm" class="extra-calculator">
+                        <label for="quantity">Cantidad de unidades</label><input id="quantity" type="number" min="1" step="1" value="100" required>
+                        <label for="makeCost">Costo de producir por unidad (Q)</label><input id="makeCost" type="number" min="0" step="0.01" value="42" required>
+                        <label for="buyCost">Costo de comprar por unidad (Q)</label><input id="buyCost" type="number" min="0" step="0.01" value="47" required>
+                        <button class="extra-button" type="submit">Comparar alternativas</button>
+                    </form>
+                    <div class="extra-result" id="makeBuyResult" aria-live="polite">Producir costaría Q 500.00 menos.</div>
+                    <p class="extra-formula">Compara costos relevantes; considera calidad, capacidad y costos adicionales.</p>
+                </article>
+                <article class="extra-tool-card">
+                    <h3>Análisis patrimonial básico</h3>
+                    <p>Observa la relación entre activos, pasivos y patrimonio.</p>
+                    <form id="equityForm" class="extra-calculator">
+                        <label for="assets">Activos totales (Q)</label><input id="assets" type="number" min="0" step="0.01" value="150000" required>
+                        <label for="liabilities">Pasivos totales (Q)</label><input id="liabilities" type="number" min="0" step="0.01" value="60000" required>
+                        <button class="extra-button" type="submit">Analizar patrimonio</button>
+                    </form>
+                    <div class="extra-result" id="equityResult" aria-live="polite">Patrimonio: Q 90,000.00</div>
+                    <p class="extra-formula">Patrimonio = activos − pasivos</p>
+                </article>
+                <article class="extra-tool-card">
+                    <h3>Calculadora de VAN (5 años)</h3>
+                    <p>Ingresa inversión, tasa y cinco flujos anuales al final de cada período.</p>
+                    <form id="vanForm" class="extra-calculator">
+                        <label for="initialInvestment">Inversión inicial (Q)</label><input id="initialInvestment" type="number" min="0" step="0.01" value="10000" required>
+                        <label for="discountRate">Tasa de descuento anual (%)</label><input id="discountRate" type="number" min="0" max="1000" step="0.01" value="10" required>
+                        <div class="extra-cashflow-grid">
+                            <div><label for="cf1">Año 1 (Q)</label><input id="cf1" type="number" step="0.01" value="3000" required></div>
+                            <div><label for="cf2">Año 2 (Q)</label><input id="cf2" type="number" step="0.01" value="3500" required></div>
+                            <div><label for="cf3">Año 3 (Q)</label><input id="cf3" type="number" step="0.01" value="4000" required></div>
+                            <div><label for="cf4">Año 4 (Q)</label><input id="cf4" type="number" step="0.01" value="2500" required></div>
+                            <div><label for="cf5">Año 5 (Q)</label><input id="cf5" type="number" step="0.01" value="0" required></div>
+                        </div>
+                        <button class="extra-button" type="submit">Calcular VAN</button>
+                    </form>
+                    <div class="extra-result" id="vanResult" aria-live="polite">VAN: calculando…</div>
+                    <p class="extra-formula">VAN = suma de flujos descontados − inversión inicial</p>
+                </article>
+                <article class="extra-tool-card">
+                    <h3>Calculadora de TIR</h3>
+                    <p>Estima la tasa que hace que el VAN sea cero para cinco flujos anuales.</p>
+                    <form id="tirForm" class="extra-calculator">
+                        <label for="tirInvestment">Inversión inicial (Q)</label><input id="tirInvestment" type="number" min="0.01" step="0.01" value="10000" required>
+                        <div class="extra-cashflow-grid">
+                            <div><label for="tirCf1">Año 1 (Q)</label><input id="tirCf1" type="number" step="0.01" value="3000" required></div>
+                            <div><label for="tirCf2">Año 2 (Q)</label><input id="tirCf2" type="number" step="0.01" value="3500" required></div>
+                            <div><label for="tirCf3">Año 3 (Q)</label><input id="tirCf3" type="number" step="0.01" value="4000" required></div>
+                            <div><label for="tirCf4">Año 4 (Q)</label><input id="tirCf4" type="number" step="0.01" value="2500" required></div>
+                            <div><label for="tirCf5">Año 5 (Q)</label><input id="tirCf5" type="number" step="0.01" value="0" required></div>
+                        </div>
+                        <button class="extra-button" type="submit">Calcular TIR</button>
+                    </form>
+                    <div class="extra-result" id="tirResult" aria-live="polite">TIR: calculando…</div>
+                    <p class="extra-formula">La TIR es la tasa de descuento que hace que el VAN sea igual a cero.</p>
+                </article>
+            </div>
+            <p class="extra-note"><strong>Interpretación:</strong> un VAN positivo suele indicar que el proyecto genera valor sobre la tasa de descuento; la TIR debe compararse con la tasa mínima requerida. Los resultados son ilustrativos.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p><strong>Universidad Mariano Gálvez de Guatemala</strong> • Facultad de Ingeniería en Sistemas</p>
+        <p>Curso: Contabilidad II (Contabilidad Administrativa) • Proyecto Final Individual</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
